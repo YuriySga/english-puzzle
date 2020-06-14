@@ -20,7 +20,7 @@ class Home extends Component {
       setPageAction('game')
     }
     else {
-      setPageAction('auth')
+      setPageAction('signUp')
     }
   }
 

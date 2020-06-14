@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Home from '../Home'
 import Game from '../Game';
+import SignUp from '../SignUp';
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 
 import './App.css';
@@ -21,8 +22,8 @@ class App extends Component {
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/auth">
-            <Auth />
+          <Route path="/signUp">
+            <SignUp />
           </Route>
         </Switch>
       </Router>
